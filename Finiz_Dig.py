@@ -54,7 +54,7 @@ def finviz_open(event=None):
         txtbox.insert(0.0, df_str)
         
         # Append data frame to CSV file
-        df.to_csv('fundies.csv', moda='a')
+        df.to_csv('fundies.csv', mode='a')
         
         print(df)
         time.sleep(1)
